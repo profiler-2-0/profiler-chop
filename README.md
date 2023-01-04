@@ -2,6 +2,13 @@
 
 ## `utilidades, cli...`
 
+https://github.com/endeavouros-team/endeavouros-i3wm-setup
+
+https://discovery.endeavouros.com/window-tiling-managers/i3-wm/2021/03/
+
+
+
+
 # CURL
 
 (-O guardará el archivo en el directorio actual con el mismo nombre):
@@ -18,13 +25,19 @@
 
 cairo dock, Plank, conky 
 
+# EXO
+
+### `exo-open --launch TerminalEmulator`
+
+# EXEC
+
+### `exec xbindkeys &  (~/.xprofile)`
+
 ### `exec setxkbmap &  (~/.xprofile, ~/.xinitrc)`
 
 https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_setxkbmap  
 
 https://wiki.archlinux.org/title/Xinit#xinitrc
-
-### `exec xbindkeys &  (~/.xprofile)`
 
 ### `echo $SHELL`
 
@@ -55,6 +68,8 @@ https://wiki.archlinux.org/title/Xinit#xinitrc
 ### `setfont ter-132n`
 
 ### `setfont lat2-16 -m 8859-2`
+
+### `terminal-colors -o`
 
 ### `grub-install /dev/sda`
 
