@@ -2,7 +2,7 @@
 
 ## `utilidades, cli...`
 
-# `CURL`
+# CURL
 
 (-O guardará el archivo en el directorio actual con el mismo nombre):
 
@@ -36,7 +36,7 @@ https://wiki.archlinux.org/title/Xinit#xinitrc
 
 ### `neofetch | lolcat`
 
-# `REFLECTOR`
+# REFLECTOR
 
 ### `reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist`
 
@@ -44,7 +44,7 @@ https://wiki.archlinux.org/title/Xinit#xinitrc
 
 ### `reflector --country France,Germany --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist`
 
-# `SSH`
+# SSH
 
 ### `ssh -p usuario@192.168...`
 
