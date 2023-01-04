@@ -18,21 +18,23 @@
 
 cairo dock, Plank, conky 
 
-## `exec setxkbmap &  (~/.xprofile, ~/.xinitrc)`
+### `exec setxkbmap &  (~/.xprofile, ~/.xinitrc)`
 
-### `https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_setxkbmap  https://wiki.archlinux.org/title/Xinit#xinitrc`
+https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_setxkbmap  
 
-## `exec xbindkeys &  (~/.xprofile)`
+https://wiki.archlinux.org/title/Xinit#xinitrc
 
-## `echo $SHELL`
+### `exec xbindkeys &  (~/.xprofile)`
 
-## `emulate sh`
+### `echo $SHELL`
 
-## `fish -i`
+### `emulate sh`
 
-## `makepkg -si PKGBUILD`
+### `fish -i`
 
-## `neofetch | lolcat`
+### `makepkg -si PKGBUILD`
+
+### `neofetch | lolcat`
 
 # `REFLECTOR`
 
@@ -44,20 +46,18 @@ cairo dock, Plank, conky
 
 # `SSH`
 
-## `ssh -p usuario@192.168...`
+### `ssh -p usuario@192.168...`
 
-## `ssh -p root@192.168...`
+### `ssh -p root@192.168...`
 
-## `ssh -2C usuario@192.168...`
+### `ssh -2C usuario@192.168...`
 
-## `setfont ter-132n`
+### `setfont ter-132n`
 
-## `setfont lat2-16 -m 8859-2`
+### `setfont lat2-16 -m 8859-2`
 
-xbindkeys
+### `grub-install /dev/sda`
 
-## `grub-install /dev/sda`
+### `grub-mkconfig -o /boot/grub/grub.cfg`
 
-## `grub-mkconfig -o /boot/grub/grub.cfg`
-
-## `umount -R /mnt`
+### `umount -R /mnt`
