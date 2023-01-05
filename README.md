@@ -6,8 +6,9 @@ https://github.com/endeavouros-team/endeavouros-i3wm-setup
 
 https://discovery.endeavouros.com/window-tiling-managers/i3-wm/2021/03/
 
+### `sudo chown root:root 2-i`
 
-
+### `sudo chmod +x 2-i`
 
 # CURL
 
