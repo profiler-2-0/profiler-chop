@@ -1,5 +1,9 @@
 # profiler-chop
 
+# PERMISOS
+
+## `sudo chmod -R +x script   (RECURSIVO a los archivos de un directorio)`
+
 ## `utilidades, cli...`
 
 https://github.com/endeavouros-team/endeavouros-i3wm-setup
