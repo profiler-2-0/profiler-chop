@@ -1,5 +1,11 @@
 # profiler-chop
 
+# Establecer el diseño del teclado de la consola
+ El mapa de teclas predeterminado de la consola es US.  
+ Los diseños disponibles se pueden enumerar con:
+
+## `ls /usr/share/kbd/keymaps/**/*.map.gz`
+
 # PERMISOS
 
 ## `sudo chmod -R +x script   (RECURSIVO a los archivos de un directorio)`
