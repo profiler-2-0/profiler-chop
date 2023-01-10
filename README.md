@@ -1,6 +1,7 @@
 # profiler-chop
 
-# Establecer el diseño del teclado de la consola
+# DISEÑO DE CONSOLA
+
  El mapa de teclas predeterminado de la consola es US.  
  Los diseños disponibles se pueden enumerar con:
 
