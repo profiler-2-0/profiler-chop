@@ -69,22 +69,35 @@ https://wiki.archlinux.org/title/Xinit#xinitrc
 
 ### `reflector --country France,Germany --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist`
 
-# SSH
+## SSH
 
-### `ssh -p usuario@192.168...`
-
-### `ssh -p root@192.168...`
-
-### `ssh -2C usuario@192.168...`
-
-### `setfont ter-132n`
-
-### `setfont lat2-16 -m 8859-2`
-
-### `terminal-colors -o`
-
-### `grub-install /dev/sda`
-
-### `grub-mkconfig -o /boot/grub/grub.cfg`
-
-### `umount -R /mnt`
+```ruby
+cat /dev/null > /home/profiler/.ssh/known_hosts
+```
+```ruby
+ssh -p usuario@192.168...
+```
+```ruby
+ssh -p root@192.168...
+```
+```ruby
+ssh -2C usuario@192.168...
+```
+```ruby
+setfont ter-132n
+```
+```ruby
+setfont lat2-16 -m 8859-2
+```
+```ruby
+terminal-colors -o
+```
+```ruby
+grub-install /dev/sda
+```
+```ruby
+grub-mkconfig -o /boot/grub/grub.cfg
+```
+```ruby
+umount -R /mnt
+```
