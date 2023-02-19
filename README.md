@@ -1,74 +1,98 @@
 # profiler-chop
 
-# DISEÑO DE CONSOLA
+## DISEÑO DE CONSOLA
 
  El mapa de teclas predeterminado de la consola es US.  
  Los diseños disponibles se pueden enumerar con:
 
-## `ls /usr/share/kbd/keymaps/**/*.map.gz`
+```ruby
+ls /usr/share/kbd/keymaps/**/*.map.gz
+```
 
-# PERMISOS
+## PERMISOS
 
-## `sudo chmod -R +x script   (RECURSIVO a los archivos de un directorio)`
+> (RECURSIVO a los archivos de un directorio)
 
-## `utilidades, cli...`
+```ruby
+sudo chmod -R +x script   
+```
 
-https://github.com/endeavouros-team/endeavouros-i3wm-setup
+## utilidades, cli...
 
-https://discovery.endeavouros.com/window-tiling-managers/i3-wm/2021/03/
+```ruby
+sudo chown root:root archivo.sh
+```
+```ruby
+sudo chmod +x archivo.sh
+```
+## CURL
 
-### `sudo chown root:root 2-i`
+* (-O guardará el archivo en el directorio actual con el mismo nombre):
 
-### `sudo chmod +x 2-i`
+```ruby
+curl -O http://SitioDeDescarga.com/miArchivo.txt.tar.xz
+```
 
-# CURL
+* (-o guardará el archivo en el directorio actual con el nuevo nombre):
 
-(-O guardará el archivo en el directorio actual con el mismo nombre):
+```ruby
+curl -o NuevoArchivo.txt.tar.xz http://SitioDeDescarga.com/miArchivo.txt.tar.xz
+```
 
-### `curl -O http://SitioDeDescarga.com/miArchivo.txt.tar.xz`  
+* (Si por alguna razón, la descarga se interrumpe, puedes reanudarla):
 
-(-o guardará el archivo en el directorio actual con el nuevo nombre):
+```ruby
+curl -C - -O http://SitioDeDescarga.com/miArchivo.tar.xz
+```
 
-### `curl -o NuevoArchivo.txt.tar.xz http://SitioDeDescarga.com/miArchivo.txt.tar.xz`
+* cairo dock, Plank, conky 
 
-(Si por alguna razón, la descarga se interrumpe, puedes reanudarla):
+## EXO
 
-### `curl -C - -O http://SitioDeDescarga.com/miArchivo.tar.xz`
+```ruby
+exo-open --launch TerminalEmulator
+```
 
-cairo dock, Plank, conky 
+## EXEC
 
-# EXO
-
-### `exo-open --launch TerminalEmulator`
-
-# EXEC
-
-### `exec xbindkeys &  (~/.xprofile)`
-
-### `exec setxkbmap &  (~/.xprofile, ~/.xinitrc)`
+```ruby
+exec xbindkeys &  (~/.xprofile)
+```
+```ruby
+exec setxkbmap &  (~/.xprofile, ~/.xinitrc)
+```
 
 https://wiki.archlinux.org/title/Xorg/Keyboard_configuration#Using_setxkbmap  
 
 https://wiki.archlinux.org/title/Xinit#xinitrc
 
-### `echo $SHELL`
+```ruby
+echo $SHELL
+```
+```ruby
+emulate sh
+```
+```ruby
+fish -i
+```
+```ruby
+makepkg -si PKGBUILD
+```
+```ruby
+neofetch | lolcat
+```
 
-### `emulate sh`
+## REFLECTOR
 
-### `fish -i`
-
-### `makepkg -si PKGBUILD`
-
-### `neofetch | lolcat`
-
-# REFLECTOR
-
-### `reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist`
-
-### `reflector --latest 200 --protocol http,https --sort rate --save /etc/pacman.d/mirrorlist`
-
-### `reflector --country France,Germany --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist`
-
+```ruby
+reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
+```
+```ruby
+reflector --latest 200 --protocol http,https --sort rate --save /etc/pacman.d/mirrorlist
+```
+```ruby
+reflector --country France,Germany --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
+```
 ## SSH
 
 ```ruby
