@@ -1,6 +1,6 @@
 # profiler-chop
 
-## DISEÑO DE CONSOLA
+## ![ARCHITO-LIME](https://images4.imagebam.com/0c/3d/09/MEJE15X_o.png) DISEÑO DE CONSOLA
 
  El mapa de teclas predeterminado de la consola es US.  
  Los diseños disponibles se pueden enumerar con:
@@ -9,7 +9,7 @@
 ls /usr/share/kbd/keymaps/**/*.map.gz
 ```
 
-## PERMISOS
+## ![ARCHITO-LIME](https://images4.imagebam.com/0c/3d/09/MEJE15X_o.png) PERMISOS
 
 > (RECURSIVO a los archivos de un directorio)
 
@@ -25,7 +25,7 @@ sudo chown root:root archivo.sh
 ```ruby
 sudo chmod +x archivo.sh
 ```
-## CURL
+## ![ARCHITO-LIME](https://images4.imagebam.com/0c/3d/09/MEJE15X_o.png) CURL
 
 * (-O guardará el archivo en el directorio actual con el mismo nombre):
 
@@ -47,13 +47,13 @@ curl -C - -O http://SitioDeDescarga.com/miArchivo.tar.xz
 
 * cairo dock, Plank, conky 
 
-## EXO
+## ![ARCHITO-LIME](https://images4.imagebam.com/0c/3d/09/MEJE15X_o.png) EXO
 
 ```ruby
 exo-open --launch TerminalEmulator
 ```
 
-## EXEC
+## ![ARCHITO-LIME](https://images4.imagebam.com/0c/3d/09/MEJE15X_o.png) EXEC
 
 ```ruby
 exec xbindkeys &  (~/.xprofile)
@@ -82,7 +82,7 @@ makepkg -si PKGBUILD
 neofetch | lolcat
 ```
 
-## REFLECTOR
+## ![ARCHITO-LIME](https://images4.imagebam.com/0c/3d/09/MEJE15X_o.png) REFLECTOR
 
 ```ruby
 reflector --latest 5 --sort rate --save /etc/pacman.d/mirrorlist
@@ -93,7 +93,7 @@ reflector --latest 200 --protocol http,https --sort rate --save /etc/pacman.d/mi
 ```ruby
 reflector --country France,Germany --age 12 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
 ```
-## SSH
+## ![ARCHITO-LIME](https://images4.imagebam.com/0c/3d/09/MEJE15X_o.png) SSH
 
 ```ruby
 cat /dev/null > /home/profiler/.ssh/known_hosts
