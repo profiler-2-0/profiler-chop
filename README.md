@@ -1,4 +1,6 @@
-# profiler-chop
+## profiler-chop
+
+![ARCH-RED](https://images4.imagebam.com/b0/68/31/MEJFE4Z_o.png)
 
 ## ![ARCHITO-LIME](https://images4.imagebam.com/0c/3d/09/MEJE15X_o.png) DISEÑO DE CONSOLA
 
